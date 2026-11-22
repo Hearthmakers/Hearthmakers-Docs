@@ -5,6 +5,8 @@
 .obsidian/workspace-mobile.json
 .obsidian/workspaces.json
 .obsidian/cache/
+# The graph view's zoom, forces and folded panels, which change just by using it.
+.obsidian/graph.json
 
 # Notes deleted to Obsidian's own trash.
 .trash/
