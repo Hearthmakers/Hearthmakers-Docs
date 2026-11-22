@@ -1,0 +1,15 @@
+# An Obsidian vault: the notes and the vault's settings are shared; what each person's app keeps for itself is not.
+
+# The panes, tabs and files open on each machine, and Obsidian's caches.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+
+# Notes deleted to Obsidian's own trash.
+.trash/
+
+# What the systems leave in folders.
+.DS_Store
+Thumbs.db
+desktop.ini
