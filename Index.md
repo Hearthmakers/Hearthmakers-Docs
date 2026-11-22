@@ -20,7 +20,8 @@ aliases: [Home, Hearthmakers]
 
 The game stands alone: there is no server the team hosts. **Anyone hosts a server**, each with its own accounts, and players add servers by their address in the game's **Multiplayer** window.
 
-- **In the browser**: the game's site, [hearthmakers.the-gearfinder.org](https://hearthmakers.the-gearfinder.org).
+The game is played in its apps, downloaded from the [releases](https://github.com/Hearthmakers/Hearthmakers-Releases/releases); the game's site, [hearthmakers.the-gearfinder.org](https://hearthmakers.the-gearfinder.org), holds the development blog.
+
 - **The desktop app** (Windows and Linux): it keeps itself and the game up to date, and its **Singleplayer** hosts a server of one's own, alone or open to the house's network.
 - **The Android app**: the same, on a phone in landscape.
 
@@ -57,4 +58,4 @@ Reference:
 
 ## Under the hood
 
-TypeScript throughout: the game's client in the browser with three.js, the server on Colyseus, the voxel models in the game's own `.qb` format and mesher. A server runs its worlds on threads of their own, keeps its save in PGlite or Postgres, and is the authority on everything: players' games send requests and draw what the server says.
+TypeScript throughout: the game's client a web page with three.js, played inside the desktop and Android apps, the server on Colyseus, the voxel models in the game's own `.qb` format and mesher. A server runs its worlds on threads of their own, keeps its save in PGlite or Postgres, and is the authority on everything: players' games send requests and draw what the server says.
