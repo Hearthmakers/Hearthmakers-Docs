@@ -136,7 +136,7 @@ export interface PluginPlayers {
 }
 
 export type Weather = 'clear' | 'rain' | 'storm' | 'fog' | 'snow' | 'blizzard' | 'sandstorm' | 'smog';
-export type Block = 'air' | 'grass' | 'dirt' | 'stone' | 'earth' | 'wood' | 'ironVein' | 'copperVein' | 'water' | 'ice';
+export type Block = 'air' | 'grass' | 'dirt' | 'stone' | 'earth' | 'wood' | 'ironVein' | 'copperVein' | 'silverVein' | 'adamantVein' | 'water' | 'ice';
 
 export interface PluginWorlds {
   open(): string[];

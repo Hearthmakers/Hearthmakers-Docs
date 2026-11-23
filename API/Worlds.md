@@ -25,7 +25,7 @@ const player = game.players.get('Ana');
 if (player?.world) for (let y = 10; y < 14; y++) game.worlds.setBlock(player.world, { x: 2, y, z: 0 }, 'stone');
 ```
 
-**setBlock(world, { x, y, z }, block)**: `x`, `y`, `z` are whole numbers; `x` and `z` run from minus half the world's size to half of it, `y` up from 0 (the bedrock). `block` is one of `air` (digs it out), `grass`, `dirt`, `stone`, `earth`, `wood`, `ironVein`, `copperVein`, `water`, `ice`. The room leaves alone what can't change there: bedrock, a building's blocks, a cell with something standing on it or in it, a cell outside the land. What changes is kept where the world is kept (a realm, a public world), as digging and filling are; water flows into a cell dug beside it.
+**setBlock(world, { x, y, z }, block)**: `x`, `y`, `z` are whole numbers; `x` and `z` run from minus half the world's size to half of it, `y` up from 0 (the bedrock). `block` is one of `air` (digs it out), `grass`, `dirt`, `stone`, `earth`, `wood`, `ironVein`, `copperVein`, `silverVein`, `adamantVein`, `water`, `ice`. The room leaves alone what can't change there: bedrock, a building's blocks, a cell with something standing on it or in it, a cell outside the land. What changes is kept where the world is kept (a realm, a public world), as digging and filling are; water flows into a cell dug beside it.
 
 **spawnMob(world, mob, { x, z }, count)**: `mob` is a mob kind this server has (`game.game.mobs()`); `count` up to 20 at once. They come out at free spots near `x`, `z`, on the ground, and live as any other mob of that kind there. A world with no mobs of its own leaves it.
 
